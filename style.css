@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+ 
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 .navbar{
@@ -85,11 +89,12 @@
   .flip-card-front {
     background-color: #bbb;
     color: black;
+    
   }
   
   /* Style the back side */
   .flip-card-back {
-    background-color: brown;
+    background-color:purple;
     color: white;
     transform: rotateY(180deg);
   }
@@ -106,8 +111,8 @@
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 300;
+    height: 300;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
   }
@@ -120,10 +125,35 @@
   
   /* Style the back side */
   .flip-card-back {
-    background-color: brown;
-    color: white;
+    background-color:peru;
+    background-image: url(./Assests/Images/wallpaper.jpg);
+    color:rgb(184, 137, 74);
     transform: rotateY(180deg);
-  }
+
+  } 
+
+.dropdown-item{
+  font-size: large;
+  font-weight: 20 px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-title{
+  font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  color: firebrick;
+}
+
+.lisa {
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  
+}
+
+.card-body{
+  color: coral;
+}
+
   
   
   
